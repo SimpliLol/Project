@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNICONVERT</title>
+  <link rel="stylesheet" href="path/to/Style.css">
+</head>
+<body>
+  <h1>UNICONVERT</h1>
+  <p>Welcome to our file conversion website! Here, you can convert your files to a variety of different formats.</p>
+
+  <!-- Form for uploading a file to be converted -->
+  <form id="conversion-form" action="/convert" method="post" enctype="multipart/form-data">
+    <label for="file-input">Select a file to convert:</label><br>
+    <input type="file" id="file-input" name="file"><br>
+    <label for="format-select">Select the output format:</label><br>
+    <select id="format-select" name="format">
+      <option value="pdf">PDF</option>
+      <option value="docx">Word</option>
+      <option value="xlsx">Excel</option>
+      <!-- Add more options for other file formats here -->
+    </select><br>
+    <input type="submit" value="Convert">
+  </form>  
+
+  <!-- Placeholder for displaying the conversion status and download link -->
+  <div id="conversion-status"></div>
+
+  <!-- Add any necessary scripts here -->
+</body>
+</html>

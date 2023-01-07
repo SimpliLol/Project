@@ -1,0 +1,20 @@
+{
+  "name": "libreoffice-convert",
+  "version": "1.0.0",
+  "description": "npm install",
+  "main": "libreoffice-convert",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "libreoffice-convert": "^1.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
